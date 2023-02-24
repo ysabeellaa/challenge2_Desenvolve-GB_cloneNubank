@@ -139,7 +139,6 @@ header {
 
 
 .container_2{
-
   height: 100vh;
   display: flex;
   align-items: center;
@@ -242,6 +241,7 @@ footer{
   list-style: none;
   justify-content: space-between;
 }
+
 .li_lista_footer ul a label{
   color: #fff;
   font-size: 1.8rem;
@@ -337,6 +337,26 @@ hr{
   display: none;
 }
 
+footer{
+  padding: 0 64px;
+  margin-bottom: 0;
+
+}
+
+/* .ul_lista_footer >li >ul{
+  padding-left: 0;
+
+} */
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 420px) {
   *{
     /* font-family: 'Helvetica 35 Thin', sans-serif; */
@@ -398,9 +418,7 @@ hr{
   height: 800px;
 }
 
-.label_saiba_mais_bottom{
-  margin-bottom: 20px;
-}
+
 
 .img_cel{
   max-height: 404px;
@@ -417,22 +435,59 @@ footer, .ul_lista_footer{
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 15px;
+  padding: 0;
+
 }
 
 
 .ul_primeiro{
-  margin-bottom: 10px;
-  line-height: 0;
+  margin-bottom: 20px;
+  /* line-height: 0; */
 }
 
 .label_saiba_mais{
-  margin-bottom: 10px
+  margin-bottom: 0;
+}
+.label_saiba_mais_bottom{
+  margin-bottom: 20px;
+}
+.li_lista_footer ul a label{
+  line-height: 20px;
 }
 
-.li_lista_footer ul a label{
-  line-height: 15px;
+  .li_lista_footer{
+  margin-bottom: 50px;
+
 }
+
+ul.ul_lista_footer{
+  padding: 0;
+}
+.section_footer{
+  margin-top: 40px;
+}
+
+.section_final_esquerda{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.lista_idioma{
+  justify-content: center;
+}
+
+
+.lista_idioma{
+  padding-left: 0;
+}
+.section_final_direita{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 
 
