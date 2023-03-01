@@ -6,10 +6,6 @@
   font-family: "Helvetica Neue", 'icones', sans-serif;
 }
 
-@font-face{
-  font-family: 'icones';
-  src: url(asserts/font/icones.ttf);
-}
 
 html {
   font-size: 7px;
