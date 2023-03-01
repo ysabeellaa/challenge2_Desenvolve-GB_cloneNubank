@@ -1,3 +1,4 @@
+
 * {
   margin: 0px;
   border: 0px;
@@ -7,7 +8,7 @@
 
 @font-face{
   font-family: 'icones';
-  src: url(/asserts/font/icones.ttf);
+  src: url(asserts/font/icones.ttf);
 }
 
 html {
@@ -555,13 +556,6 @@ ul.ul_lista_footer{
   margin-left: 50px;
 }
 
-/* .menu-lateral--ativo_icone{
-  background-color: #4C0677;
-  color: white;
-  border-radius: 20%;
- 
-  align-items: center;
-  justify-content: center;
-} */
+
 
 }
