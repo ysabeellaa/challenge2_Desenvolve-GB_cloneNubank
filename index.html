@@ -16,13 +16,16 @@
   </head>
   <body>
     <header>
+      
       <img src="asserts/favicons/logo.svg" alt="Logo Nubank em cor roxa" class="logo_img">
-      <nav class="nav_cabecalho">
-        <li>Para você</li>
-        <li>Página Inicial</li>
-        <li>Para seu negócio</li>
-        <li>O Nubank</li>
-        <li>Perguntas</li>
+      <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+      <nav class="menu_lateral nav_cabecalho">
+          <a href="#">Para você</a>
+          <a href="#">Página Inicial</a>
+          <a href="#">Para seu negócio</a>
+          <a href="#">O Nubank</a>
+          <a href="#">Perguntas</a>
+      
       </nav>
       <a href="#" class="login">
         <label>
@@ -34,14 +37,14 @@
     <main>
       <section class="container_1 container_geral">
         <div class="titulos">
-          <h1>O futuro é a razão que a gente faz planos.</h1>
+          <h1 data-translate>O futuro é a razão que a gente faz planos.</h1>
           <h3>
             Escolha o futuro. Comece a controlar melhor sua vida financeira com
             o Nubank.
           </h3>
         </div>
         <div class="form">
-          <h2>Peça sua conta e cartão de crédito do Nubank</h2>
+          <h2 class="titulo_cpf">Peça sua conta e cartão de crédito do Nubank</h2>
           <input type="text" placeholder="Digite seu CPF">
           <button disabled="disabled">
             Continuar
@@ -147,9 +150,9 @@
 
     <footer>
       <section class="section_footer">
-        <ul class="ul_lista_footer">
+        <div class="ul_lista_footer">
           <li class="li_lista_footer">
-            <ul class="ul_primeiro">Nubank</ul>
+            <h3 class="ul_primeiro">Nubank</h3>
             <ul>
               <a href="#">
                 <label class="label_saiba_mais">
@@ -352,14 +355,13 @@
               </a>
             </ul>
           </li>
-        </ul>
-  
+        </div>
       </section>
       <!-- outra linha -->
 
-      <ul class="ul_lista_footer ultimo">
+      <div class="ul_lista_footer ultimo">
         <li class="li_lista_footer">
-          <ul class="ul_primeiro">Tranparência</ul>
+          <h3 class="ul_primeiro">Tranparência</h3>
           <ul>
             <a href="#">
               <label class="label_saiba_mais">
@@ -479,18 +481,7 @@
             </a>
           </ul>
         </li>
-        <!-- <li class="li_lista_footer">
-          <ul class="ul_primeiro">Baixe o app</ul>
-          <ul>
-            <a href="#">
-              <label class="label_saiba_mais downloads">
-                <img  src="asserts/images/apple.png" alt="Imagem que indica para saber mais">
-                <img  src="asserts/images/google.png" alt="Imagem que indica para saber mais">
-              </label>
-            </a>
-          </ul>
-        </li>> -->
-      </ul>
+      </div>
       <hr>
 
       <section class="section_final">
@@ -510,13 +501,13 @@
       <hr>
       <ul class="lista_idioma">
         <li class="lista_idioma_item_port lista_idioma_item">
-          <a href="#" aria-label="Clique para mudar de idioma do site para português">
+          <a class="portugues" href="#" aria-label="Clique para mudar de idioma do site para português">
             <span class="span_idioma_selecionado"></span>
             <p>Português</p>
           </a>
         </li>
         <li class="lista_idioma_item">
-          <a href="#" aria-label="Clique para mudar de idioma do site para inglês">
+          <a class="ingles" href="#" aria-label="Clique para mudar de idioma do site para inglês">
             <span class="span_idioma" ></span>
             <p>Inglês</p>
           </a>
@@ -531,7 +522,7 @@
 
 
     </footer>
-    
+  <script src="app.js"></script>
   </body>
 </html>
 
